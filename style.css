@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+  }
+  
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .card.flipped img {
+    display: block;
+  }
+  
+  #score {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
