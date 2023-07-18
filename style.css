@@ -44,6 +44,25 @@ body {
 .front-face{
     transform: rotateY(180deg);
 }
+#score{
+    text-align:left;
+    color:aliceblue;
+    position:absolute;
+    font-size: large;
+}
+#time{
+    text-align: left;
+    color:aliceblue;
+    font-size: large;
+}
 
- 
-
+#restart{
+   
+    font-weight: bold;
+    padding-right: 70px;
+}
+#clicks{
+    text-align: left;
+    font-size: large;
+    color: aliceblue;
+}

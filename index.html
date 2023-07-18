@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEMORY_GAME</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="databyte_logo.png">
 </head>
 <body>
-    <section class = "full_board">
+    <div class = "full_board">
         <div class = "card" data-framework="batman">
             <img class = "front-face" src = "batman.png" alt="card">
             <img class = "back-face" src = "databyte_logo.png" alt="card">
@@ -72,9 +73,18 @@
             <img class = "front-face" src = "spiderman.png" alt="card">
             <img class = "back-face" src = "databyte_logo.png" alt="card">
         </div>
+        <!-- <pre>
         <button type="button" id="restart">Restart</button>
-    </section>
-    
+        <div id="score">score:0</div>
+        <div id="time">timer:0</div>
+        </pre> -->
+    </div>
+    <pre>
+        <button type="button"  id="restart">RESTART</button>
+        <div id="score">SCORE:0</div>
+        <div id="time">TIMER:0</div>
+        <div id="clicks">CLICKS:0</div>
+    </pre>
     <script src="script.js"></script>
 </body>
 </html>
