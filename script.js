@@ -51,7 +51,7 @@ function Timer(){
         
     if(time > 60){
         clearTimeout(timer);
-        windows.alert("timer ended!");
+        alert("timer ended!");
     }
     }, 1000);
 
@@ -70,6 +70,7 @@ document.getElementById("restart").onclick= () =>{
         card.addEventListener('click',flipcard);
     });
 }
+
 let clickCount = document.getElementById("clicks");
 let count = 0;
 cards.forEach(card => card.addEventListener('click',clickCount));
